@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+  font-family: montserrat;
+  background-color: #eee;
+  padding: 8px;
+  /* font-size:  */
+}
+#main{
+  text-align: center;
+/*   align-items: center; */
+  min-width: 400px;
+/*   background-color: #efefef; */
+}
+#main h1{
+  font-family: bebas neue;
+  font-size: 8vw;
+  margin: 0;
+}
+#main p{
+/*   margin: 0; */
+  font-family: montserrat;
+  font-size: 3vw;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#img-div{
+  background-color: #ffffff;
+  padding: 20px;
+  
+  
+/*   justify-content: center; */
+}
+#img-caption{
+  font-size: 1.5vw;
+  padding: 3vh; 
+}
+
+#tribute-info{
+  width: 800px;
+  margin: 50px auto;
+}
+#tribute-info h2{
+  text-align: center;
+}
+#tribute-info ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#tribute-info li{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+/* @media (max-width: 460px){
+  #tribute-info{
+    margin: 0;
+  }
+} */
+.char{
+  position: relative;
+}
+.char .char-img{
+  width: 100%;
+  height: 100%;
+}
+.char .char-name{
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 0.8em;
+  opacity: 0;
+  transition: 0.5s;
+}
+.char .char-name:hover{
+  opacity: 0.7;
+}
